@@ -1,13 +1,39 @@
-/**
-* Template Name: MyResume - v4.7.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+.bg-blue {background-color: #0b192f !important;}
+.bg-grey {background-color: #8994b0 !important; box-shadow: none;}
+.border-lime {border: #6bd3c9 solid 1px !important;}
+.bg-light {background-color: #c8d6ef;}
+
+.text-lime {color: #6bd3c9 !important;}
+.text-grey {color: #8994b0 !important;}
+.text-light {color: #c8d6ef !important;}
+.text-blue {color: #0b192f !important;}
+
+.pos-item{align-items: center;}
+
+/* Skills section */
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+/* Skills section ends */
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
